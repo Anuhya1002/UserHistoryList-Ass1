@@ -12,7 +12,7 @@ const UserHistoryList = props => {
         <li className="history-list-item">
             <div className="time-container">
                 <p className="browsing-time">{timeAccessed}</p>
-                <div classNam="history-content-container">
+                <div className="history-content-container">
                     <div className="content-card">
                     <img src={logoUrl} alt="domain logo" className="logo-image" />
                     <p className="browser-title">{title}</p>
